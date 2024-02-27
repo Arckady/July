@@ -7,6 +7,8 @@
 /public/bundles/
 /var/
 /vendor/
+/docker/
+/.idea/
 ###< symfony/framework-bundle ###
 
 ###> phpunit/phpunit ###
@@ -22,3 +24,10 @@
 ###> symfony/asset-mapper ###
 /public/assets/
 ###< symfony/asset-mapper ###
+
+###>
+/composer.lock
+/symfony.loc
+/docker-compose.yml
+/Makefile
+###<
